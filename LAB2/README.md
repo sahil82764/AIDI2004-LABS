@@ -1,6 +1,6 @@
-# Random Forest and XGBoost Classifier
+# Logistic Regression Classifier
 
-This Python script demonstrates how to build and evaluate Random Forest and XGBoost classifiers for the Breast Cancer Wisconsin (Diagnostic) dataset.
+This Python script demonstrates how to build and evaluate a Logistic Regression classifier for the Breast Cancer Wisconsin (Diagnostic) dataset.
 
 ## Prerequisites
 
@@ -9,7 +9,6 @@ Before running the script, ensure you have the following libraries installed:
 - numpy
 - pandas
 - scikit-learn
-- xgboost
 
 You can install these libraries using pip:
 
@@ -18,7 +17,7 @@ You can install these libraries using pip:
 
 1. Clone the repository or download the script.
 2. Run the script using Python.
-3. The script will load the dataset, preprocess it, train Random Forest and XGBoost classifiers, and evaluate their performance using accuracy, confusion matrix, and classification report.
+3. The script will load the dataset, preprocess it, train a Logistic Regression classifier, and evaluate its performance using accuracy, confusion matrix, and classification report.
 
 ## Dataset
 
@@ -28,4 +27,4 @@ The Breast Cancer Wisconsin (Diagnostic) dataset used in this script can be foun
 
 ## Results
 
-The script will print out the accuracy, confusion matrix, and classification report for both Random Forest and XGBoost classifiers.
+The script will print out the accuracy, confusion matrix, and classification report for the Logistic Regression classifier.
